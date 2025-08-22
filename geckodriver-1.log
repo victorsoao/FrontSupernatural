@@ -1,0 +1,27 @@
+1755820788667	geckodriver	INFO	Listening on 127.0.0.1:35253
+1755820788720	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "53261" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesxUR6e"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1755820789470	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1755820789632	Marionette	INFO	Listening on port 33235
+Read port: 33235
+WebDriver BiDi listening on ws://127.0.0.1:53261
+1755820789853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js, line 1: Script terminated by timeout at:
+isIncrementalEvent@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:73717
+updateClickDetectorForRecordingEvent@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:73375
+45879/getHandleRecordingEmit/<@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:111702
+a@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:63128
+mouseInteractionCb@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:66585
+45879/callbackWrapper/<@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:38783
+45879/initMouseInteractionObserver/getHandler/<@https://shogun.qacoders.dev.br/_next/static/chunks/52774a7f-1c0c9b8220949e68.js:1:41107
+sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4253
+
+1755820808548	Marionette	INFO	Stopped listening on port 33235
