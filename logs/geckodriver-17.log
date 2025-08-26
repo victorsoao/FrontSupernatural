@@ -1,0 +1,16 @@
+1756163172044	geckodriver	INFO	Listening on 127.0.0.1:49631
+1756163172090	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "48467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZR2Sxi"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1756163172702	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1756163172858	Marionette	INFO	Listening on port 36193
+Read port: 36193
+WebDriver BiDi listening on ws://127.0.0.1:48467
+1756163173028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+1756163194004	Marionette	INFO	Stopped listening on port 36193

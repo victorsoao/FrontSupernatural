@@ -36,12 +36,16 @@ Abrir Navegador
     Wait Until Element Is Visible    xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']
     Click Element    xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']
     Wait Until Element Is Visible    xpath=//*[@id="costCentername"]
-    Input Text    xpath=//*[@id="costCentername"]    text=!!!!!!!!!!!!!
+    Input Text    xpath=//*[@id="costCentername"]    text=
     Click Element    xpath=//*[@id="Diretoria"]/option[2]
     Click Element    xpath=//*[@id="save"]
-    Wait Until Page Contains Element    xpath=//div[contains(@class,'MuiAlert-message') and contains(text(),"centro de custos' só pode conter")]    15s
-    #Wait Until Page Contains Element    xpath=//div[contains(@class,'MuiAlert-message') and text()="O campo 'centro de custos' só pode conter letras e o caractere especial '&'."]
+    Wait Until Page Contains Element    xpath=//p[contains(text(), 'O campo diretoria é obrigatório')]
     Close Browser
+    #Wait Until Page Contains Element    xpath=//span[text()='O campo diretoria é obrigatório.']
+    #Wait Until Page Contains Element    xpath=//div[contains(@class,'MuiAlert-message') and text()="O campo diretoria é obrigatório."]
+    #Element Should Contain    xpath=/html/body/div/div/div[2]/div/form/div/div[1]/p  O campo 'diretoria' é obrigatório.
+    #Wait Until Page Contains Element    xpath=//div[contains(@class,'MuiAlert-message') and contains(text(),"O campo diretoria é obrigatório' só pode conter")]    15s
     #Should Be Equal As Strings    xpath=/html/body/div/div/div[2]/div/form/div[1]/div[2]    O campo 'centro de custos' só pode conter letras e o caractere especial '&'.
-
     #Click Element    xpath=//*[@id="Diretoria"]
+
+

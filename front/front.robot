@@ -6,7 +6,5 @@ Library           Collections
 Library           String
 
 *** Test Cases ***
-Abrir Navegador E Editar Centro De Custo 
+Abrir Navegador
     Abrir Navegador
-   
-

@@ -1,0 +1,35 @@
+1756163333738	geckodriver	INFO	Listening on 127.0.0.1:57085
+1756163333789	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "38731" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelwLdJY"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1756163334393	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1756163334545	Marionette	INFO	Listening on port 42921
+Read port: 42921
+WebDriver BiDi listening on ws://127.0.0.1:38731
+1756163334706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 34: Script terminated by timeout at:
+ensureTimestampInSeconds@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:34:20887
+spanTimeInputToSeconds@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:34:20697
+end@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:32:2496
+2859/startAndEndSpan/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:8998
+1599/withActiveSpan/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:32:6605
+withScope@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:37705
+withScope@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:38420
+withScope@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:40728
+withActiveSpan@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:32:6579
+startAndEndSpan@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:8943
+_addResourceSpans@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:19430
+2859/addPerformanceEntries/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:15776
+addPerformanceEntries@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:15258
+beforeSpanEnd@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:33343
+apply@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:7168
+2859/registerBackgroundTabDetection/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:22852
+sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4253
+
+1756163354511	Marionette	INFO	Stopped listening on port 42921

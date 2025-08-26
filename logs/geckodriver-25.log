@@ -1,0 +1,18 @@
+1756163581502	geckodriver	INFO	Listening on 127.0.0.1:55383
+1756163581556	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "51781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesQrHtN"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1756163582157	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1756163582305	Marionette	INFO	Listening on port 44857
+Read port: 44857
+WebDriver BiDi listening on ws://127.0.0.1:51781
+1756163582457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1756163612166	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1756163648820	Marionette	INFO	Stopped listening on port 44857

@@ -1,0 +1,25 @@
+1756170485883	geckodriver	INFO	Listening on 127.0.0.1:34629
+1756170485928	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "52375" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekcn2o3"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1756170486510	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1756170486661	Marionette	INFO	Listening on port 41067
+Read port: 41067
+WebDriver BiDi listening on ws://127.0.0.1:52375
+1756170486816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 28: Script terminated by timeout at:
+msToSec@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:9757
+2859/addPerformanceEntries/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:15283
+addPerformanceEntries@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:15258
+beforeSpanEnd@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:33343
+apply@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:7168
+2859/registerBackgroundTabDetection/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:22852
+sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4253
+
+1756170510139	Marionette	INFO	Stopped listening on port 41067
