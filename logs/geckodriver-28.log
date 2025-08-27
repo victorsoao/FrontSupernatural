@@ -1,19 +1,16 @@
-1756164367289	geckodriver	INFO	Listening on 127.0.0.1:41045
-1756164367340	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "34079" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesDXUnD"
+1756255240777	geckodriver	INFO	Listening on 127.0.0.1:53179
+1756255240822	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "44473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXBeOWE"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756164367967	Marionette	INFO	Marionette enabled
+1756255241364	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756164368130	Marionette	INFO	Listening on port 41453
-Read port: 41453
-WebDriver BiDi listening on ws://127.0.0.1:34079
-1756164368284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756255241544	Marionette	INFO	Listening on port 36427
+WebDriver BiDi listening on ws://127.0.0.1:44473
+Read port: 36427
+1756255241764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 28: Script terminated by timeout at:
-sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4226
-
-1756164390772	Marionette	INFO	Stopped listening on port 41453
+1756255261032	Marionette	INFO	Stopped listening on port 36427

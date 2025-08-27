@@ -1,18 +1,22 @@
-1756163581502	geckodriver	INFO	Listening on 127.0.0.1:55383
-1756163581556	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "51781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesQrHtN"
+1756254962728	geckodriver	INFO	Listening on 127.0.0.1:58761
+1756254962798	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "56805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileN4X3W2"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756163582157	Marionette	INFO	Marionette enabled
+1756254963532	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756163582305	Marionette	INFO	Listening on port 44857
-Read port: 44857
-WebDriver BiDi listening on ws://127.0.0.1:51781
-1756163582457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756254963725	Marionette	INFO	Listening on port 43349
+WebDriver BiDi listening on ws://127.0.0.1:56805
+Read port: 43349
+1756254963967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 272: TypeError: InspectorUtils.setContentState: Argument 1 is not an object.
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
-1756163612166	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1756163648820	Marionette	INFO	Stopped listening on port 44857
+1756254993546	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 28: Script terminated by timeout at:
+sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4207
+
+1756255035250	Marionette	INFO	Stopped listening on port 43349

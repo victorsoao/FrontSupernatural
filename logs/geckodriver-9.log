@@ -1,16 +1,17 @@
-1756162466793	geckodriver	INFO	Listening on 127.0.0.1:52673
-1756162466852	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "48797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehs5CQj"
+1756253673180	geckodriver	INFO	Listening on 127.0.0.1:47183
+1756253673236	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "37353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegVZbXw"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756162467507	Marionette	INFO	Marionette enabled
+1756253673963	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756162467670	Marionette	INFO	Listening on port 38117
-Read port: 38117
-WebDriver BiDi listening on ws://127.0.0.1:48797
-1756162467826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756253674218	Marionette	INFO	Listening on port 42071
+Read port: 42071
+WebDriver BiDi listening on ws://127.0.0.1:37353
+1756253674333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-1756162488178	Marionette	INFO	Stopped listening on port 38117
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
+1756253695984	Marionette	INFO	Stopped listening on port 42071

@@ -1,27 +1,30 @@
-1756163555569	geckodriver	INFO	Listening on 127.0.0.1:44865
-1756163555622	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "50169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileseon0c"
+1756254927454	geckodriver	INFO	Listening on 127.0.0.1:56053
+1756254927493	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "52107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezkXqL9"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756163556422	Marionette	INFO	Marionette enabled
+1756254928183	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756163556583	Marionette	INFO	Listening on port 40785
-Read port: 40785
-WebDriver BiDi listening on ws://127.0.0.1:50169
-1756163556761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756254928319	Marionette	INFO	Listening on port 44029
+Read port: 44029
+WebDriver BiDi listening on ws://127.0.0.1:52107
+1756254928468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
-1756163586439	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 31: Script terminated by timeout at:
-JQ@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:31:5485
-getSpanJSON@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:32:2858
-spanToJSON@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:34:20943
-2859/startIdleSpan/apply/d<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:7366
-apply@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:7351
-2859/registerBackgroundTabDetection/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:22852
-sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4253
+1756254958198	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 28: Script terminated by timeout at:
+sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4207
 
-1756163676712	Marionette	INFO	Stopped listening on port 40785
+1756254959955	Marionette	INFO	Stopped listening on port 44029
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/tippytop sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown

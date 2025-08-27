@@ -20,7 +20,7 @@ ${MSG_ERRO_NAO_ENCONTRADO}   Cadastro não encontrado
 ${MSG_ERRO_JA_INATIVO}       Ao escolher inativar, não será mais possível utilizar essa Diretoria. Deseja realmente inativar?
 
 *** Keywords ***
-Abrir Navegador
+01 - Cadastrar diretoria com sucesso
     Open Browser    
     Maximize Browser Window
 
@@ -31,21 +31,106 @@ Abrir Navegador
     Wait Until Element Is Visible    xpath=//*[@id="Cadastros"]
     Click Element    xpath=//*[@id="Cadastros"]
     Click Element    xpath=//*[@id="Centro de Custo"]
-    #Wait Until Element Is Visible    xpath=/html/body/div/div/div/div[2]/div[2]/div
-    #Scroll Element Into View    xpath=/html/body/div/div/div/div[2]/div[2]/div
-    Wait Until Element Is Visible    xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']
-    Click Element    xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']
+    Wait Until Element Is Visible    xpath=/html/body/div/div/div[2]/div[2]/div
+    Scroll Element Into View    xpath=/html/body/div/div/div[2]/div[2]/div
+    Wait Until Element Is Visible    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Click Element    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
     Wait Until Element Is Visible    xpath=//*[@id="costCentername"]
-    Input Text    xpath=//*[@id="costCentername"]    text=
+    Input Text    xpath=//*[@id="costCentername"]    text=Diretorianova
+    Click Element    xpath=//*[@id="Diretoria"]
     Click Element    xpath=//*[@id="Diretoria"]/option[2]
     Click Element    xpath=//*[@id="save"]
-    Wait Until Page Contains Element    xpath=//p[contains(text(), 'O campo diretoria é obrigatório')]
     Close Browser
-    #Wait Until Page Contains Element    xpath=//span[text()='O campo diretoria é obrigatório.']
-    #Wait Until Page Contains Element    xpath=//div[contains(@class,'MuiAlert-message') and text()="O campo diretoria é obrigatório."]
-    #Element Should Contain    xpath=/html/body/div/div/div[2]/div/form/div/div[1]/p  O campo 'diretoria' é obrigatório.
-    #Wait Until Page Contains Element    xpath=//div[contains(@class,'MuiAlert-message') and contains(text(),"O campo diretoria é obrigatório' só pode conter")]    15s
-    #Should Be Equal As Strings    xpath=/html/body/div/div/div[2]/div/form/div[1]/div[2]    O campo 'centro de custos' só pode conter letras e o caractere especial '&'.
-    #Click Element    xpath=//*[@id="Diretoria"]
 
+02 - Diretoria em branco 
+    Open Browser    
+    Maximize Browser Window
 
+    Go To    url=${BASE_URL}
+    Input Text    xpath=//*[@id="email"]    text=${ADMIN_EMAIL}
+    Input Text    xpath=//*[@id="password"]    text=${ADMIN_PASSWORD}
+    Click Button    xpath=//*[@id="login"]
+    Wait Until Element Is Visible    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Centro de Custo"]
+    Wait Until Element Is Visible    xpath=/html/body/div/div/div[2]/div[2]/div
+    Scroll Element Into View    xpath=/html/body/div/div/div[2]/div[2]/div
+    Wait Until Element Is Visible    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Click Element    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Wait Until Element Is Visible    xpath=//*[@id="costCentername"]
+    Input Text    xpath=//*[@id="costCentername"]    text=Diretoria de Teste123
+    Click Element    xpath=//*[@id="Diretoria"]
+    Click Element    xpath=//*[@id="Diretoria"]/option[2]
+    Click Element    xpath=//*[@id="save"]
+    Close Browser
+
+03 - Diretoria com 01 caractere
+    Open Browser    
+    Maximize Browser Window
+
+    Go To    url=${BASE_URL}
+    Input Text    xpath=//*[@id="email"]    text=${ADMIN_EMAIL}
+    Input Text    xpath=//*[@id="password"]    text=${ADMIN_PASSWORD}
+    Click Button    xpath=//*[@id="login"]
+    Wait Until Element Is Visible    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Centro de Custo"]
+    Wait Until Element Is Visible    xpath=/html/body/div/div/div[2]/div[2]/div
+    Scroll Element Into View    xpath=/html/body/div/div/div[2]/div[2]/div
+    Wait Until Element Is Visible    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Click Element    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Wait Until Element Is Visible    xpath=//*[@id="costCentername"]
+    Input Text    xpath=//*[@id="costCentername"]    text=a
+    Click Element    xpath=//*[@id="Diretoria"]
+    Click Element    xpath=//*[@id="Diretoria"]/option[2]
+    Click Element    xpath=//*[@id="save"]
+    Wait Until Element Is Visible    xpath=//p[text()='O campo diretoria é obrigatório']
+    Close Browser
+
+04 - Diretoria com 51 caractere
+    Open Browser    
+    Maximize Browser Window
+
+    Go To    url=${BASE_URL}
+    Input Text    xpath=//*[@id="email"]    text=${ADMIN_EMAIL}
+    Input Text    xpath=//*[@id="password"]    text=${ADMIN_PASSWORD}
+    Click Button    xpath=//*[@id="login"]
+    Wait Until Element Is Visible    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Centro de Custo"]
+    Wait Until Element Is Visible    xpath=/html/body/div/div/div[2]/div[2]/div
+    Scroll Element Into View    xpath=/html/body/div/div/div[2]/div[2]/div
+    Wait Until Element Is Visible    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Click Element    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Wait Until Element Is Visible    xpath=//*[@id="costCentername"]
+    Input Text    xpath=//*[@id="costCentername"]    text=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    Click Element    xpath=//*[@id="Diretoria"]
+    Click Element    xpath=//*[@id="Diretoria"]/option[2]
+    Click Element    xpath=//*[@id="save"]
+    Wait Until Element Is Visible    xpath=//p[text()='O campo diretoria pode ter no máximo 50 caracteres']
+    Close Browser
+
+05 - Diretoria com números e caractere especial
+    Open Browser
+    Maximize Browser Window
+
+    Go To    url=${BASE_URL}
+    Input Text    xpath=//*[@id="email"]    text=${ADMIN_EMAIL}
+    Input Text    xpath=//*[@id="password"]    text=${ADMIN_PASSWORD}
+    Click Button    xpath=//*[@id="login"]
+    Wait Until Element Is Visible    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Cadastros"]
+    Click Element    xpath=//*[@id="Centro de Custo"]
+    Wait Until Element Is Visible    xpath=/html/body/div/div/div[2]/div[2]/div
+    Scroll Element Into View    xpath=/html/body/div/div/div[2]/div[2]/div
+    Wait Until Element Is Visible    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Click Element    xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']
+    Wait Until Element Is Visible    xpath=//*[@id="costCentername"]
+    Input Text    xpath=//*[@id="costCentername"]    text=123123123!!
+    Click Element    xpath=//*[@id="Diretoria"]
+    Click Element    xpath=//*[@id="Diretoria"]/option[3]
+    Click Element    xpath=//*[@id="save"]
+    Wait Until Page Contains Element        xpath=//div[contains(@class,'MuiAlert-message') and contains(text(),"centro de custos' só pode conter")]    15s
+    #Wait Until Page Contains Element        xpath=//div[contains(@class,'MuiAlert-message') and contains(text(),"O campo 'centro de custos' só pode conter letras e o caractere especial '&'.")]    15s
+    Close Browser
+    

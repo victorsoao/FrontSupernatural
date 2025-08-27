@@ -1,22 +1,25 @@
-1756162120665	geckodriver	INFO	Listening on 127.0.0.1:35433
-1756162120765	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "42173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuW7tgZ"
+1756253578142	geckodriver	INFO	Listening on 127.0.0.1:56865
+1756253578199	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "42097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilextN6NF"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756162121622	Marionette	INFO	Marionette enabled
+1756253578908	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756162121885	Marionette	INFO	Listening on port 34775
-WebDriver BiDi listening on ws://127.0.0.1:42173
-Read port: 34775
-1756162122170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756253579073	Marionette	INFO	Listening on port 40719
+Read port: 40719
+WebDriver BiDi listening on ws://127.0.0.1:42097
+1756253579260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
-1756162151641	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 28: Script terminated by timeout at:
-sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4207
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js, line 34: Script terminated by timeout at:
+addSpanChildren@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:34:22153
+addSpanChildren@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:34:22252
+getSpanDescendants@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:34:22279
+apply@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:7253
+2859/registerBackgroundTabDetection/<@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:22852
+sentryWrapped@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:28:4253
 
-1756162560888	Marionette	INFO	Stopped listening on port 34775
+1756253602276	Marionette	INFO	Stopped listening on port 40719

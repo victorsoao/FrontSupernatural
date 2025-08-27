@@ -1,16 +1,33 @@
-1756164472047	geckodriver	INFO	Listening on 127.0.0.1:58409
-1756164472095	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "48961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXeL5Ir"
+1756255370023	geckodriver	INFO	Listening on 127.0.0.1:58523
+1756255370067	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "44477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileR1WlZp"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756164472707	Marionette	INFO	Marionette enabled
+1756255370612	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756164472854	Marionette	INFO	Listening on port 44765
-Read port: 44765
-WebDriver BiDi listening on ws://127.0.0.1:48961
-1756164473013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756255370740	Marionette	INFO	Listening on port 35605
+Read port: 35605
+WebDriver BiDi listening on ws://127.0.0.1:44477
+1756255370874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-1756164492788	Marionette	INFO	Stopped listening on port 44765
+JavaScript warning: https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js, line 9: Script terminated by timeout at:
+Xk@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:106246
+ud@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:106642
+Be@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:108771
+q@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:31270
+r@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:32188
+z@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:32978
+U@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:35242
+V@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:35603
+uh@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:57196
+rC@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:115173
+Jk@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:102247
+Mk@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:102219
+tk@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:102073
+qf@https://shogun.qacoders.dev.br/_next/static/chunks/fd9d1056-9d4fb47df0148f5a.js:9:97936
+P@https://shogun.qacoders.dev.br/_next/static/chunks/60-03acd893cb63adc7.js:25:1666
+
+1756255387702	Marionette	INFO	Stopped listening on port 35605

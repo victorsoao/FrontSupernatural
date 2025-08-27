@@ -1,120 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on linux)" generated="2025-08-25T22:09:13.185946" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on linux)" generated="2025-08-26T21:51:49.838965" rpa="false" schemaversion="5">
 <suite id="s1" name="Front" source="/home/victor/Documentos/Front/front/front.robot">
-<test id="s1-t1" name="Abrir Navegador" line="9">
-<kw name="Abrir Navegador" owner="front">
+<test id="s1-t1" name="05 - Diretoria com números e caractere especial" line="21">
+<kw name="05 - Diretoria com números e caractere especial" owner="front">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:13.480820" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<msg time="2025-08-26T21:51:50.044815" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-08-25T22:09:13.480279" elapsed="2.748311"/>
+<status status="PASS" start="2025-08-26T21:51:50.044417" elapsed="2.449562"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-08-25T22:09:16.229049" elapsed="0.268313"/>
+<status status="PASS" start="2025-08-26T21:51:52.494344" elapsed="0.256103"/>
 </kw>
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:16.498137" level="INFO">Opening url 'https://shogun.qacoders.dev.br/login'</msg>
+<msg time="2025-08-26T21:51:52.751170" level="INFO">Opening url 'https://shogun.qacoders.dev.br/login'</msg>
 <arg>url=${BASE_URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2025-08-25T22:09:16.497740" elapsed="8.790605"/>
+<status status="PASS" start="2025-08-26T21:51:52.750805" elapsed="13.170888"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:25.289729" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<msg time="2025-08-26T21:52:05.922948" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'xpath=//*[@id="email"]'.</msg>
 <arg>xpath=//*[@id="email"]</arg>
 <arg>text=${ADMIN_EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:25.288750" elapsed="0.198163"/>
+<status status="PASS" start="2025-08-26T21:52:05.922100" elapsed="0.160562"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:25.488008" level="INFO">Typing text '1234@Test' into text field 'xpath=//*[@id="password"]'.</msg>
+<msg time="2025-08-26T21:52:06.083632" level="INFO">Typing text '1234@Test' into text field 'xpath=//*[@id="password"]'.</msg>
 <arg>xpath=//*[@id="password"]</arg>
 <arg>text=${ADMIN_PASSWORD}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:25.487350" elapsed="0.093593"/>
+<status status="PASS" start="2025-08-26T21:52:06.083050" elapsed="0.025135"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:25.581969" level="INFO">Clicking button 'xpath=//*[@id="login"]'.</msg>
+<msg time="2025-08-26T21:52:06.108838" level="INFO">Clicking button 'xpath=//*[@id="login"]'.</msg>
 <arg>xpath=//*[@id="login"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:25.581384" elapsed="0.275562"/>
+<status status="PASS" start="2025-08-26T21:52:06.108517" elapsed="7.373356"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2025-08-26T21:52:13.532455" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
+<msg time="2025-08-26T21:52:13.533786" level="FAIL">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
 <arg>xpath=//*[@id="Cadastros"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-08-25T22:09:25.857366" elapsed="3.286903"/>
+<status status="FAIL" start="2025-08-26T21:52:13.482490" elapsed="0.057789">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:29.144898" level="INFO">Clicking element 'xpath=//*[@id="Cadastros"]'.</msg>
 <arg>xpath=//*[@id="Cadastros"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:29.144598" elapsed="0.250713"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.540783" elapsed="0.000398"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:29.395908" level="INFO">Clicking element 'xpath=//*[@id="Centro de Custo"]'.</msg>
 <arg>xpath=//*[@id="Centro de Custo"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:29.395617" elapsed="0.227200"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.541545" elapsed="0.000184"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']</arg>
+<arg>xpath=/html/body/div/div/div[2]/div[2]/div</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-08-25T22:09:29.623181" elapsed="0.880329"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.542482" elapsed="0.000159"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath=/html/body/div/div/div[2]/div[2]/div</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2025-08-26T21:52:13.542854" elapsed="0.000116"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-08-26T21:52:13.543171" elapsed="0.000107"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:30.504409" level="INFO">Clicking element 'xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']'.</msg>
-<arg>xpath=//p[text()='Supernatural']/following-sibling::div/button[text()='Editar']</arg>
+<arg>xpath=//p[text()='Marketing']/following-sibling::div/button[text()='Editar']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:30.503862" elapsed="0.274074"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.543508" elapsed="0.000151"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//*[@id="costCentername"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-08-25T22:09:30.778531" elapsed="0.031835"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.543871" elapsed="0.000105"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:30.811131" level="INFO">Typing text '' into text field 'xpath=//*[@id="costCentername"]'.</msg>
 <arg>xpath=//*[@id="costCentername"]</arg>
-<arg>text=</arg>
+<arg>text=123123123!!</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:30.810762" elapsed="0.037935"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.544183" elapsed="0.000170"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:30.849360" level="INFO">Clicking element 'xpath=//*[@id="Diretoria"]/option[2]'.</msg>
-<arg>xpath=//*[@id="Diretoria"]/option[2]</arg>
+<arg>xpath=//*[@id="Diretoria"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:30.849033" elapsed="0.229503"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.544605" elapsed="0.000137"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-08-25T22:09:31.079607" level="INFO">Clicking element 'xpath=//*[@id="save"]'.</msg>
+<arg>xpath=//*[@id="Diretoria"]/option[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-08-26T21:52:13.544970" elapsed="0.000143"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
 <arg>xpath=//*[@id="save"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-08-25T22:09:31.079056" elapsed="0.255830"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.545655" elapsed="0.000199"/>
 </kw>
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
-<arg>xpath=//p[contains(text(), 'O campo diretoria é obrigatório')]</arg>
+<arg>xpath=//div[contains(@class,'MuiAlert-message') and contains(text(),"centro de custos' só pode conter")]</arg>
+<arg>15s</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2025-08-25T22:09:31.335194" elapsed="0.006371"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.546118" elapsed="0.000184"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-25T22:09:31.341904" elapsed="0.720512"/>
+<status status="NOT RUN" start="2025-08-26T21:52:13.546595" elapsed="0.000154"/>
 </kw>
-<status status="PASS" start="2025-08-25T22:09:13.478363" elapsed="18.584499"/>
+<status status="FAIL" start="2025-08-26T21:51:50.042996" elapsed="23.504077">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
 </kw>
-<status status="PASS" start="2025-08-25T22:09:13.476696" elapsed="18.586734"/>
+<status status="FAIL" start="2025-08-26T21:51:50.041829" elapsed="23.505872">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
 </test>
-<status status="PASS" start="2025-08-25T22:09:13.191340" elapsed="18.874142"/>
+<status status="FAIL" start="2025-08-26T21:51:49.841931" elapsed="23.708930"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Front" id="s1" pass="1" fail="0" skip="0">Front</stat>
+<stat name="Front" id="s1" pass="0" fail="1" skip="0">Front</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2025-08-26T21:52:13.532455" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
 </errors>
 </robot>

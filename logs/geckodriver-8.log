@@ -1,18 +1,16 @@
-1756162267746	geckodriver	INFO	Listening on 127.0.0.1:54641
-1756162267796	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "47997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebSZjdP"
+1756253648487	geckodriver	INFO	Listening on 127.0.0.1:55285
+1756253648546	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "35899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehckS1v"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756162268352	Marionette	INFO	Marionette enabled
+1756253649279	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756162268534	Marionette	INFO	Listening on port 39183
-WebDriver BiDi listening on ws://127.0.0.1:47997
-Read port: 39183
-1756162268765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756253649455	Marionette	INFO	Listening on port 41503
+Read port: 41503
+WebDriver BiDi listening on ws://127.0.0.1:35899
+1756253649633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-1756162295132	Marionette	INFO	Stopped listening on port 39183
-1756162295343	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
+1756253666488	Marionette	INFO	Stopped listening on port 41503

@@ -1,16 +1,16 @@
-1756164421752	geckodriver	INFO	Listening on 127.0.0.1:38937
-1756164421835	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "41783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepO8z4v"
+1756255342429	geckodriver	INFO	Listening on 127.0.0.1:59069
+1756255342472	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "52869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileowlhpa"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756164422569	Marionette	INFO	Marionette enabled
+1756255343004	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756164422716	Marionette	INFO	Listening on port 34167
-Read port: 34167
-WebDriver BiDi listening on ws://127.0.0.1:41783
-1756164422876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756255343189	Marionette	INFO	Listening on port 35365
+WebDriver BiDi listening on ws://127.0.0.1:52869
+Read port: 35365
+1756255343415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-1756164442751	Marionette	INFO	Stopped listening on port 34167
+1756255367507	Marionette	INFO	Stopped listening on port 35365

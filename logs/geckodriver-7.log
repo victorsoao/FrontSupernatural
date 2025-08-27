@@ -1,16 +1,16 @@
-1756162187060	geckodriver	INFO	Listening on 127.0.0.1:47273
-1756162187107	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "59343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBHVcO5"
+1756253626261	geckodriver	INFO	Listening on 127.0.0.1:36393
+1756253626312	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "47267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0sDizy"
 Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1756162187655	Marionette	INFO	Marionette enabled
+1756253627031	Marionette	INFO	Marionette enabled
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1756162187796	Marionette	INFO	Listening on port 41899
-Read port: 41899
-WebDriver BiDi listening on ws://127.0.0.1:59343
-1756162187942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756253627207	Marionette	INFO	Listening on port 36921
+Read port: 36921
+WebDriver BiDi listening on ws://127.0.0.1:47267
+1756253627395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://shogun.qacoders.dev.br."
-1756162216859	Marionette	INFO	Stopped listening on port 41899
+1756253643247	Marionette	INFO	Stopped listening on port 36921
