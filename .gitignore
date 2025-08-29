@@ -1,3 +1,5 @@
 venv/
 logs/
-interactive_console_output.xml
+interactive_console_output.xml]
+.gitignore
+
